@@ -3,12 +3,12 @@ export default function Home() {
     {
       name: "Ceiling Fans",
       image:
-        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1555470100-1728256970aa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2VpbGluZyUyMGZhbnN8ZW58MHx8MHx8fDA%3D"
     },
     {
-      name: "Coolers",
+        name: "Coolers",
       image:
-        "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?q=80&w=1200&auto=format&fit=crop",
+        "https://media.istockphoto.com/id/820247780/photo/evaporative-air-cooler-fan.jpg?s=1024x1024&w=is&k=20&c=p7qC5RcMdJ3-jyXdXQuFDH5GIyerNW4QCnnom5jWwz0=",
     },
     {
       name: "Washing Machines",
