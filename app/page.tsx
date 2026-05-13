@@ -80,7 +80,7 @@ export default function Home() {
         className="relative h-screen flex items-center justify-center text-center"
       >
         <img
-          src="https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1400&auto=format&fit=crop"
+          src="/image/img1.jpeg"
           alt="shop"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -175,33 +175,30 @@ export default function Home() {
       </section>
 
       {/* Gallery Section */}
-      <section id="gallery" className="py-24 px-6 bg-gray-100">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-5xl font-bold text-center text-blue-700">
-            Shop Gallery
-          </h2>
+<section id="gallery" className="py-24 px-6 bg-gray-100">
+  <div className="max-w-7xl mx-auto">
+    <h2 className="text-5xl font-bold text-center text-blue-700">
+      Shop Gallery
+    </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
-            <img
-              src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200&auto=format&fit=crop"
-              alt="gallery"
-              className="rounded-3xl h-80 w-full object-cover hover:scale-105 transition duration-500 shadow-xl"
-            />
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
 
-            <img
-              src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop"
-              alt="gallery"
-              className="rounded-3xl h-80 w-full object-cover hover:scale-105 transition duration-500 shadow-xl"
-            />
+      <img
+        src="/image/img1.jpeg"
+        alt="gallery image 1"
+        className="rounded-3xl h-80 w-full object-cover hover:scale-105 transition duration-500 shadow-xl"
+      />
 
-            <img
-              src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1200&auto=format&fit=crop"
-              alt="gallery"
-              className="rounded-3xl h-80 w-full object-cover hover:scale-105 transition duration-500 shadow-xl"
-            />
-          </div>
-        </div>
-      </section>
+      <img
+        src="/image/img2.jpeg"
+        alt="gallery image 2"
+        className="rounded-3xl h-80 w-full object-cover hover:scale-105 transition duration-500 shadow-xl"
+      />
+
+    </div>
+  </div>
+</section>
+      
 
       {/* Contact Section */}
       <section id="contact" className="py-24 px-6 bg-white">
@@ -257,5 +254,7 @@ export default function Home() {
       </footer>
     </main>
   );
+
+  
 }
 
