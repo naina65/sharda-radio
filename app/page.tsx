@@ -8,8 +8,11 @@ export default function Home() {
     {
         name: "Coolers",
       image:
-        "https://media.istockphoto.com/id/820247780/photo/evaporative-air-cooler-fan.jpg?s=1024x1024&w=is&k=20&c=p7qC5RcMdJ3-jyXdXQuFDH5GIyerNW4QCnnom5jWwz0=",
+        "img3.jpeg",
+        
+    
     },
+    
     {
       name: "Washing Machines",
       image:
@@ -181,21 +184,17 @@ export default function Home() {
       Shop Gallery
     </h2>
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
-
-      <img
-        src="/image/img1.jpeg"
-        alt="gallery image 1"
-        className="rounded-3xl h-80 w-full object-cover hover:scale-105 transition duration-500 shadow-xl"
-      />
-
-      <img
-        src="/image/img2.jpeg"
-        alt="gallery image 2"
-        className="rounded-3xl h-80 w-full object-cover hover:scale-105 transition duration-500 shadow-xl"
-      />
-
-    </div>
+    {/* Gallery Section */}
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+  {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16].map((num) => (
+    <img
+      key={num}
+      src={`/image/img${num}.jpeg`}
+      alt={`gallery image ${num}`}
+      className="rounded-3xl h-80 w-full object-cover hover:scale-105 transition duration-500 shadow-xl"
+    />
+  ))}
+  </div>
   </div>
 </section>
       
